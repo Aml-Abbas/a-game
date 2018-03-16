@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcoral;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+align-items: center;
+}
+img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40px;
+    height: 40px;
+    color: lightcoral;
+}
+.content{
+    text-align: center;
+    align-items: center;
+    margin-top: 15%;
+    
+}
+img:hover {
+    cursor: pointer;
+    -ms-transform: scale(2,3); /* IE 9 */
+    -webkit-transform: scale(2,3); /* Safari */
+    transform: scale(2,3); /* Standard syntax */
+}
